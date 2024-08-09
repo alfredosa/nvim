@@ -1,0 +1,44 @@
+{
+  "theme": "Gruvbox Dark Soft",
+  "buffer_font_size": 12,
+  "current_line_highlight": "gutter",
+  "ui_font_size": 16,
+  "buffer_font_family": "SFMono Nerd Font",
+  "formatter": "language_server",
+  "format_on_save": "on",
+  "preferred_line_length": 88,
+  "soft_wrap": "preferred_line_length",
+  "languages": {
+    "Go": {
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    },
+    "C": {
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    },
+    "JSON": {
+      "tab_size": 4
+    },
+    "Markdown": {
+      "preferred_line_length": 80,
+      "code_actions_on_format": {
+        
+      }
+    }
+  },
+  "ensure_final_newline_on_save": false,
+  "file_icons": true,
+  "close_position": "right",
+  "blinking": "off",
+  "scrollbar": {
+    "show": "never"
+  },
+  "inline_completions": {
+    "disabled_globs": [
+      ".env"
+    ]
+  },
+}
